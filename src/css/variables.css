@@ -1,7 +1,9 @@
 :root {
   --c-black: #2c2c2c;
+  --c-more-black: #000;
   --c-button-green: #bbf330;
   --c-yelow-mein: #ffe550;
+  --c-yellow-background: #ffe450;
   --c-primery-white: #fefefe;
   --c-green-icon: #7eb101;
 }

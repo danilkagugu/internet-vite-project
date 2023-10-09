@@ -1,17 +1,48 @@
 <header class="header">
-  <div class="container">
+  <div class="container header-container">
     <a href="" class="logo"
       ><img src="./img/logo.png" alt="logo" width="66"
     /></a>
     <nav class="navigation">
       <ul class="nav-list">
-        <li><a href="" class="nav-link">Home</a></li>
-        <li><a href="" class="nav-link">About</a></li>
-        <li><a href="" class="nav-link">Service</a></li>
-        <li><a href="" class="nav-link">Menu</a></li>
-        <li><a href="" class="nav-link">Contact</a></li>
+        <li><a class="nav-link nav-link-current" href="">Home</a></li>
+        <li><a class="nav-link" href="">About</a></li>
+        <li><a class="nav-link" href="">Service</a></li>
+        <li><a class="nav-link" href="">Menu</a></li>
+        <li><a class="nav-link" href="">Contact</a></li>
       </ul>
     </nav>
     <button class="header-btn" type="button">Order Now</button>
+    <button class="header-mob-btn">
+      <svg class="header-mob-btn-icon" width="28" height="28">
+        <use href="./img/icon.svg#icon-gg-menu"></use>
+      </svg>
+    </button>
+    <div class="mob-menu">
+      <nav class="mob-navigation">
+        <ul class="mob-nav-list">
+          <li class="mob-nav-item">
+            <a class="mob-nav-link mob-nav-link-current" href="">Home</a>
+          </li>
+          <li class="mob-nav-item">
+            <a class="mob-nav-link" href="">About</a>
+          </li>
+          <li class="mob-nav-item">
+            <a class="mob-nav-link" href="">Service</a>
+          </li>
+          <li class="mob-nav-item">
+            <a class="mob-nav-link" href="">Menu</a>
+          </li>
+          <li class="mob-nav-item">
+            <a class="mob-nav-link" href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="mob-menu-close-btn">
+        <svg class="mob-menu-close-icon" width="24" height="24">
+          <use href="./img/icon.svg#icon-close-btn"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </header>
